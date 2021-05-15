@@ -1,7 +1,16 @@
 import Routes from "./routes";
+import GlobalStyles from "./assets/GlobalStyles";
+
+//import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App: React.FC = () => {
-  return <Routes />;
+  return (
+    <>
+      <GlobalStyles />
+      <Routes />
+    </>
+  );
 };
 
 export default App;

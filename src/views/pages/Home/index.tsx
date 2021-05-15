@@ -1,6 +1,6 @@
 import React from "react";
 
-import FormSignIn from "../../../components/Form";
+import FormSignIn from "../../../components/FormSignUp";
 import Nav from "../../../components/Nav";
 import Footer from "../../../components/Footer";
 
@@ -10,23 +10,21 @@ const Home: React.FC = () => {
   return (
     <>
       <Nav />
-      <div>
-        <Container>
-          <div>
-            <section className="signup-section">
-              <div className="signup-text">textos</div>
-              <div className="signup-form">
-                <FormSignIn />
-              </div>
-            </section>
+      <Container>
+        <div>
+          <section className="signup-section">
+            <div className="signup-text">textos</div>
+            <div className="signup-form">
+              <FormSignIn />
+            </div>
+          </section>
 
-            <section className="cta-section">
-              <div>CTA</div>
-            </section>
-          </div>
-        </Container>
-        <Footer />
-      </div>
+          <section className="cta-section">
+            <div>CTA</div>
+          </section>
+        </div>
+      </Container>
+      <Footer />
     </>
   );
 };

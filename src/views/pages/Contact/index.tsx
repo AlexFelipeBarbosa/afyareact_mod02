@@ -1,5 +1,7 @@
 import React from "react";
+
 import Nav from "../../../components/Nav";
+// import { Container } from './styles';
 
 const Contact: React.FC = () => {
   return (

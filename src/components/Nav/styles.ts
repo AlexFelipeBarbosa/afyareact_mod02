@@ -6,15 +6,13 @@ export const NavContent = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #d31c5b;
-
+  background-color: #f70054;
   & img {
-    height: 80px;
+    height: 100px;
     width: auto;
   }
-
   .nav-contents {
-    width: 75%;
+    width: 55%;
     display: flex;
     justify-content: space-around;
     & a {
